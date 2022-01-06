@@ -1,0 +1,215 @@
+
+
+
+
+
+/* Default style  */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    margin: o;
+    padding: 0;
+}
+p{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #333}
+
+.default-button{
+    padding-top: 20px;
+}
+img{
+    max-width: 500px;
+    max-height: 600px;
+}
+/* Style for home */
+
+#home{
+    
+    padding: 0 5%;
+    margin: 0;
+}
+
+.flex-container{
+    display: flex;
+}
+.half-content{
+    width: 50%;
+    margin: 0;
+}
+.half-content img{
+    width: 80%;
+}
+
+.home-content-left{
+    padding-top: 10%;
+}
+
+.home-heading{
+    border-left: 5px solid #541743;
+}
+
+.home-heading h1{
+    padding-left: 10px;
+    color: #000;
+    font-size: 45px;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+}
+
+.color-text{
+    color: #C10037;
+}
+.home-content-left h6{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: gray;
+}
+
+.button{
+    color: #fff;
+    background: #541743;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.home-content-right img{
+    padding: 0 5%;
+    width: 80%;
+}
+
+/* Style for mission Section */
+
+.mission-heading {
+    text-align: center;
+
+}
+
+.mission-heading h1{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.mission-content{
+    width: 33.33%;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-family: sans-serif;
+}
+
+.mission-1{
+    
+    background: rgba(255, 155, 155, 0.5);
+}
+
+.mission-2{
+    
+    background: rgba(255, 255, 155, 0.5);
+}
+
+.mission-3{
+    
+    background: rgba(255, 155, 255, 0.5);
+}
+.mission-content  img{
+    width: 80px;
+}
+
+.mission-wrapper{
+    padding: 10px 5%;
+}
+#develop{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position:left;
+}
+.develop-wrapper,
+.community-wrapper{
+    margin: 5%;
+}
+
+
+.develop-wrapper  h1,
+.community-wrapper  h1{
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+.develop-wrapper  p,
+.community-wrapper  p{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 400;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+
+#community{
+    background-image: url(images/shapes/shape-2.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position:right;
+}
+
+#app{
+    background: #f7f7f7;
+    padding: 50px 0;
+}
+
+#app h1{
+    margin: 30px 0;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.app-image{
+    text-align: center;
+}
+.app-image img{
+    max-height: 600px;
+    max-width: 350px;
+}
+
+
+
+.app-wrapper{
+    padding: 0 10%;
+}
+.half-content{
+    padding: 2%;
+}
+
+
+#footer{
+    background-color: #000;
+    padding: 20px 50px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+#footer h2{
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+#footer p{
+    color: #f1f1f1;
+}
